@@ -1,268 +1,37 @@
 {
-  "total_images_processed": 12,
-  "timestamp": "2026-02-14 22:42:20",
+  "total_images_processed": 1,
+  "timestamp": "2026-02-14 23:27:24",
   "results": [
     {
-      "input_path": "data/input\\image.jpg",
-      "output_path": "data/output\\image_clahe_clip2.0_tile8_LAB.png",
+      "input_path": "data/input/image3.jpg",
+      "output_path": "data/output\\image3_clahe_clip2.0_tile8_gray.png",
       "parameters": {
         "clip_limit": 2.0,
         "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
+        "color_space": "grayscale",
+        "grayscale": true
       },
       "metrics": {
-        "entropy": 6.641014099121094,
-        "contrast": 26.272584525361513,
-        "brightness": 110.06678618687839,
-        "sharpness": 730.2934293760145,
-        "psnr": 25.30973024891257,
-        "width": 685,
-        "height": 513,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.2066655158996582
-    },
-    {
-      "input_path": "data/input\\image1.jpg",
-      "output_path": "data/output\\image1_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 7.655399322509766,
-        "contrast": 58.58001722399719,
-        "brightness": 130.15809595202398,
-        "sharpness": 518.4038726195321,
-        "psnr": 20.663597786088697,
-        "width": 1000,
-        "height": 667,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.019378185272216797
-    },
-    {
-      "input_path": "data/input\\image2.JPG",
-      "output_path": "data/output\\image2_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 7.200002670288086,
-        "contrast": 56.88375391252464,
-        "brightness": 68.86195963541667,
-        "sharpness": 845.3557282561302,
-        "psnr": 21.014959068885332,
-        "width": 640,
-        "height": 480,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.007857799530029297
-    },
-    {
-      "input_path": "data/input\\image3.jpg",
-      "output_path": "data/output\\image3_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 5.855280876159668,
-        "contrast": 43.70774332536182,
-        "brightness": 47.3517595144357,
-        "sharpness": 235.7302154976818,
-        "psnr": 24.87319001713623,
+        "entropy": 6.004542350769043,
+        "contrast": 43.714627101186316,
+        "brightness": 47.85800524934383,
+        "sharpness": 230.38345825054498,
+        "psnr": 24.734054584225994,
         "width": 3000,
         "height": 2032,
-        "channels": 3
+        "channels": 1
       },
-      "processing_time_seconds": 0.07204961776733398
-    },
-    {
-      "input_path": "data/input\\image.jpg",
-      "output_path": "data/output\\image_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 6.641014099121094,
-        "contrast": 26.272584525361513,
-        "brightness": 110.06678618687839,
-        "sharpness": 730.2934293760145,
-        "psnr": 25.30973024891257,
-        "width": 685,
-        "height": 513,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.013673067092895508
-    },
-    {
-      "input_path": "data/input\\image1.jpg",
-      "output_path": "data/output\\image1_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 7.655399322509766,
-        "contrast": 58.58001722399719,
-        "brightness": 130.15809595202398,
-        "sharpness": 518.4038726195321,
-        "psnr": 20.663597786088697,
-        "width": 1000,
-        "height": 667,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.018622636795043945
-    },
-    {
-      "input_path": "data/input\\image2.JPG",
-      "output_path": "data/output\\image2_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 7.200002670288086,
-        "contrast": 56.88375391252464,
-        "brightness": 68.86195963541667,
-        "sharpness": 845.3557282561302,
-        "psnr": 21.014959068885332,
-        "width": 640,
-        "height": 480,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.008469104766845703
-    },
-    {
-      "input_path": "data/input\\image3.jpg",
-      "output_path": "data/output\\image3_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 5.855280876159668,
-        "contrast": 43.70774332536182,
-        "brightness": 47.3517595144357,
-        "sharpness": 235.7302154976818,
-        "psnr": 24.87319001713623,
-        "width": 3000,
-        "height": 2032,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.07083272933959961
-    },
-    {
-      "input_path": "data/input\\image.jpeg",
-      "output_path": "data/output\\image_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 7.737273693084717,
-        "contrast": 75.19276845762674,
-        "brightness": 151.81233933161954,
-        "sharpness": 1148.159178484298,
-        "psnr": 17.432296888741558,
-        "width": 650,
-        "height": 389,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.0076296329498291016
-    },
-    {
-      "input_path": "data/input\\image1.jpeg",
-      "output_path": "data/output\\image1_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 6.665910720825195,
-        "contrast": 28.11226394320609,
-        "brightness": 143.0102089268756,
-        "sharpness": 222.74410644313258,
-        "psnr": 26.19256595453554,
-        "width": 243,
-        "height": 312,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.0040132999420166016
-    },
-    {
-      "input_path": "data/input\\image.jpeg",
-      "output_path": "data/output\\image_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 7.737273693084717,
-        "contrast": 75.19276845762674,
-        "brightness": 151.81233933161954,
-        "sharpness": 1148.159178484298,
-        "psnr": 17.432296888741558,
-        "width": 650,
-        "height": 389,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.005549430847167969
-    },
-    {
-      "input_path": "data/input\\image1.jpeg",
-      "output_path": "data/output\\image1_clahe_clip2.0_tile8_LAB.png",
-      "parameters": {
-        "clip_limit": 2.0,
-        "tile_size": 8,
-        "color_space": "LAB",
-        "grayscale": false
-      },
-      "metrics": {
-        "entropy": 6.665910720825195,
-        "contrast": 28.11226394320609,
-        "brightness": 143.0102089268756,
-        "sharpness": 222.74410644313258,
-        "psnr": 26.19256595453554,
-        "width": 243,
-        "height": 312,
-        "channels": 3
-      },
-      "processing_time_seconds": 0.005316734313964844
+      "processing_time_seconds": 0.03266143798828125
     }
   ],
   "average_metrics": {
-    "avg_entropy": 6.959146896998088,
-    "avg_contrast": 48.12485523134634,
-    "avg_brightness": 108.54352492454164,
-    "avg_sharpness": 616.7810884461315,
-    "avg_psnr": 22.58105666071665,
-    "avg_width": 1036.3333333333333,
-    "avg_height": 732.1666666666666,
-    "avg_channels": 3.0
+    "avg_entropy": 6.004542350769043,
+    "avg_contrast": 43.714627101186316,
+    "avg_brightness": 47.85800524934383,
+    "avg_sharpness": 230.38345825054498,
+    "avg_psnr": 24.734054584225994,
+    "avg_width": 3000.0,
+    "avg_height": 2032.0,
+    "avg_channels": 1.0
   }
 }
